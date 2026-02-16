@@ -1,1 +1,1 @@
-# PassLinkControlToClass
+# Передача ссылок на созданные элементы управления TextBox, ListBox, RichTextBox в приложении Windows Forms без многопоточности в другой класс
