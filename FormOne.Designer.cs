@@ -33,6 +33,8 @@
          ListBoxReader = new System.Windows.Forms.ListBox();
          TextBoxReader = new System.Windows.Forms.TextBox();
          ButtonConstructor = new System.Windows.Forms.Button();
+         button1 = new System.Windows.Forms.Button();
+         button2 = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // ButtonClear
@@ -83,11 +85,31 @@
          ButtonConstructor.UseVisualStyleBackColor = true;
          ButtonConstructor.Click += ButtonConstructor_Click;
          // 
+         // button1
+         // 
+         button1.Location = new System.Drawing.Point(238, 12);
+         button1.Name = "button1";
+         button1.Size = new System.Drawing.Size(220, 23);
+         button1.TabIndex = 19;
+         button1.Text = "Передача ссылок через метод";
+         button1.UseVisualStyleBackColor = true;
+         // 
+         // button2
+         // 
+         button2.Location = new System.Drawing.Point(464, 12);
+         button2.Name = "button2";
+         button2.Size = new System.Drawing.Size(220, 23);
+         button2.TabIndex = 20;
+         button2.Text = "Передача ссылок через конструктор";
+         button2.UseVisualStyleBackColor = true;
+         // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(769, 414);
+         Controls.Add(button2);
+         Controls.Add(button1);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
@@ -107,5 +129,7 @@
       private System.Windows.Forms.ListBox ListBoxReader;
       private System.Windows.Forms.TextBox TextBoxReader;
       private System.Windows.Forms.Button ButtonConstructor;
+      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button button2;
    }
 }
