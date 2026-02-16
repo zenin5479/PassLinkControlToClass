@@ -8,5 +8,10 @@ namespace PassLinkControlToClass
       {
          InitializeComponent();
       }
+
+      private void ButtonClear_Click(object sender, System.EventArgs e)
+      {
+
+      }
    }
 }
