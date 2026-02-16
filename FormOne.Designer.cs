@@ -81,6 +81,7 @@
          ButtonStart.TabIndex = 14;
          ButtonStart.Text = "Передача ссылки в класс";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // FormOne
          // 
