@@ -89,7 +89,7 @@
          // 
          button1.Location = new System.Drawing.Point(238, 12);
          button1.Name = "button1";
-         button1.Size = new System.Drawing.Size(220, 23);
+         button1.Size = new System.Drawing.Size(184, 23);
          button1.TabIndex = 19;
          button1.Text = "Передача ссылок через метод";
          button1.UseVisualStyleBackColor = true;
