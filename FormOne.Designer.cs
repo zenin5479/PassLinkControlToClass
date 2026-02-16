@@ -37,7 +37,7 @@
          ClientSize = new System.Drawing.Size(868, 540);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         Text = "Form1";
+         Text = "Передача ссылок на элементы управления в класс";
          ResumeLayout(false);
       }
 
