@@ -30,9 +30,5 @@ namespace PassLinkControlToClass
          RichTextBoxReader.Clear();
          ListBoxReader.Items.Clear();
       }
-
-
-
-
    }
 }
