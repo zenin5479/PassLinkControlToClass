@@ -9,6 +9,12 @@ namespace PassLinkControlToClass
          InitializeComponent();
       }
 
+      private void ButtonStart_Click(object sender, System.EventArgs e)
+      {
+
+      }
+      
+      
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
          TextBoxReader.Clear();
@@ -16,9 +22,6 @@ namespace PassLinkControlToClass
          ListBoxReader.Items.Clear();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
-      {
-
-      }
+      
    }
 }
