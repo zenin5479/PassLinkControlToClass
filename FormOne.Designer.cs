@@ -93,6 +93,7 @@
          ButtonMethod.TabIndex = 19;
          ButtonMethod.Text = "Передача ссылок через метод";
          ButtonMethod.UseVisualStyleBackColor = true;
+         ButtonMethod.Click += ButtonMethod_Click;
          // 
          // ButtonInterface
          // 

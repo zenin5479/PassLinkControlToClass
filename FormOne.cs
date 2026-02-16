@@ -25,5 +25,10 @@ namespace PassLinkControlToClass
       {
 
       }
+
+      private void ButtonMethod_Click(object sender, System.EventArgs e)
+      {
+
+      }
    }
 }
