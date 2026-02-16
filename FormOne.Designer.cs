@@ -77,9 +77,9 @@
          // 
          ButtonStart.Location = new System.Drawing.Point(12, 12);
          ButtonStart.Name = "ButtonStart";
-         ButtonStart.Size = new System.Drawing.Size(155, 23);
+         ButtonStart.Size = new System.Drawing.Size(220, 23);
          ButtonStart.TabIndex = 14;
-         ButtonStart.Text = "Передача ссылки в класс";
+         ButtonStart.Text = "Передача ссылок через конструктор";
          ButtonStart.UseVisualStyleBackColor = true;
          ButtonStart.Click += ButtonStart_Click;
          // 
