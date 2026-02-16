@@ -34,7 +34,7 @@
          TextBoxReader = new System.Windows.Forms.TextBox();
          ButtonConstructor = new System.Windows.Forms.Button();
          ButtonMethod = new System.Windows.Forms.Button();
-         button2 = new System.Windows.Forms.Button();
+         ButtonInterface = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // ButtonClear
@@ -94,21 +94,21 @@
          ButtonMethod.Text = "Передача ссылок через метод";
          ButtonMethod.UseVisualStyleBackColor = true;
          // 
-         // button2
+         // ButtonInterface
          // 
-         button2.Location = new System.Drawing.Point(429, 12);
-         button2.Name = "button2";
-         button2.Size = new System.Drawing.Size(210, 23);
-         button2.TabIndex = 20;
-         button2.Text = "Передача ссылок через интерфейс";
-         button2.UseVisualStyleBackColor = true;
+         ButtonInterface.Location = new System.Drawing.Point(429, 12);
+         ButtonInterface.Name = "ButtonInterface";
+         ButtonInterface.Size = new System.Drawing.Size(210, 23);
+         ButtonInterface.TabIndex = 20;
+         ButtonInterface.Text = "Передача ссылок через интерфейс";
+         ButtonInterface.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(772, 414);
-         Controls.Add(button2);
+         Controls.Add(ButtonInterface);
          Controls.Add(ButtonMethod);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
@@ -130,6 +130,6 @@
       private System.Windows.Forms.TextBox TextBoxReader;
       private System.Windows.Forms.Button ButtonConstructor;
       private System.Windows.Forms.Button ButtonMethod;
-      private System.Windows.Forms.Button button2;
+      private System.Windows.Forms.Button ButtonInterface;
    }
 }
