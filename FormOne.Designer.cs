@@ -76,9 +76,9 @@
          // 
          ButtonStart.Location = new System.Drawing.Point(12, 12);
          ButtonStart.Name = "ButtonStart";
-         ButtonStart.Size = new System.Drawing.Size(110, 23);
+         ButtonStart.Size = new System.Drawing.Size(155, 23);
          ButtonStart.TabIndex = 14;
-         ButtonStart.Text = "Запуск сервера";
+         ButtonStart.Text = "Передача ссылки в класс";
          ButtonStart.UseVisualStyleBackColor = true;
          // 
          // FormOne
