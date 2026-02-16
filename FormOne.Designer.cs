@@ -33,7 +33,7 @@
          ListBoxReader = new System.Windows.Forms.ListBox();
          TextBoxReader = new System.Windows.Forms.TextBox();
          ButtonConstructor = new System.Windows.Forms.Button();
-         button1 = new System.Windows.Forms.Button();
+         ButtonMethod = new System.Windows.Forms.Button();
          button2 = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
@@ -85,14 +85,14 @@
          ButtonConstructor.UseVisualStyleBackColor = true;
          ButtonConstructor.Click += ButtonConstructor_Click;
          // 
-         // button1
+         // ButtonMethod
          // 
-         button1.Location = new System.Drawing.Point(238, 12);
-         button1.Name = "button1";
-         button1.Size = new System.Drawing.Size(185, 23);
-         button1.TabIndex = 19;
-         button1.Text = "Передача ссылок через метод";
-         button1.UseVisualStyleBackColor = true;
+         ButtonMethod.Location = new System.Drawing.Point(238, 12);
+         ButtonMethod.Name = "ButtonMethod";
+         ButtonMethod.Size = new System.Drawing.Size(185, 23);
+         ButtonMethod.TabIndex = 19;
+         ButtonMethod.Text = "Передача ссылок через метод";
+         ButtonMethod.UseVisualStyleBackColor = true;
          // 
          // button2
          // 
@@ -109,7 +109,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(772, 414);
          Controls.Add(button2);
-         Controls.Add(button1);
+         Controls.Add(ButtonMethod);
          Controls.Add(ButtonClear);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
@@ -129,7 +129,7 @@
       private System.Windows.Forms.ListBox ListBoxReader;
       private System.Windows.Forms.TextBox TextBoxReader;
       private System.Windows.Forms.Button ButtonConstructor;
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button ButtonMethod;
       private System.Windows.Forms.Button button2;
    }
 }
