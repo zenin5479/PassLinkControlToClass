@@ -14,11 +14,9 @@ namespace PassLinkControlToClass
 
       }
 
-      private void ButtonClear_Click(object sender, System.EventArgs e)
+      private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
-         TextBoxReader.Clear();
-         RichTextBoxReader.Clear();
-         ListBoxReader.Items.Clear();
+
       }
 
       private void ButtonInterface_Click(object sender, System.EventArgs e)
@@ -26,9 +24,15 @@ namespace PassLinkControlToClass
 
       }
 
-      private void ButtonMethod_Click(object sender, System.EventArgs e)
+      private void ButtonClear_Click(object sender, System.EventArgs e)
       {
-
+         TextBoxReader.Clear();
+         RichTextBoxReader.Clear();
+         ListBoxReader.Items.Clear();
       }
+
+
+
+
    }
 }
