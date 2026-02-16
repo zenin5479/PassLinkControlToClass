@@ -3,6 +3,6 @@
    // Передача ссылок через конструктор
    public class PassLinkControlConstructor
    {
-      
+
    }
 }
