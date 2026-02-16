@@ -20,5 +20,10 @@ namespace PassLinkControlToClass
          RichTextBoxReader.Clear();
          ListBoxReader.Items.Clear();
       }
+
+      private void ButtonInterface_Click(object sender, System.EventArgs e)
+      {
+
+      }
    }
 }

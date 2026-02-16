@@ -102,6 +102,7 @@
          ButtonInterface.TabIndex = 20;
          ButtonInterface.Text = "Передача ссылок через интерфейс";
          ButtonInterface.UseVisualStyleBackColor = true;
+         ButtonInterface.Click += ButtonInterface_Click;
          // 
          // FormOne
          // 
