@@ -32,12 +32,12 @@
          RichTextBoxReader = new System.Windows.Forms.RichTextBox();
          ListBoxReader = new System.Windows.Forms.ListBox();
          TextBoxReader = new System.Windows.Forms.TextBox();
-         ButtonStart = new System.Windows.Forms.Button();
+         ButtonConstructor = new System.Windows.Forms.Button();
          SuspendLayout();
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(668, 12);
+         ButtonClear.Location = new System.Drawing.Point(667, 231);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(90, 23);
          ButtonClear.TabIndex = 18;
@@ -61,7 +61,7 @@
          ListBoxReader.Location = new System.Drawing.Point(388, 41);
          ListBoxReader.Name = "ListBoxReader";
          ListBoxReader.ScrollAlwaysVisible = true;
-         ListBoxReader.Size = new System.Drawing.Size(370, 184);
+         ListBoxReader.Size = new System.Drawing.Size(369, 184);
          ListBoxReader.TabIndex = 16;
          // 
          // TextBoxReader
@@ -73,15 +73,15 @@
          TextBoxReader.Size = new System.Drawing.Size(370, 180);
          TextBoxReader.TabIndex = 15;
          // 
-         // ButtonStart
+         // ButtonConstructor
          // 
-         ButtonStart.Location = new System.Drawing.Point(12, 12);
-         ButtonStart.Name = "ButtonStart";
-         ButtonStart.Size = new System.Drawing.Size(220, 23);
-         ButtonStart.TabIndex = 14;
-         ButtonStart.Text = "Передача ссылок через конструктор";
-         ButtonStart.UseVisualStyleBackColor = true;
-         ButtonStart.Click += ButtonStart_Click;
+         ButtonConstructor.Location = new System.Drawing.Point(12, 12);
+         ButtonConstructor.Name = "ButtonConstructor";
+         ButtonConstructor.Size = new System.Drawing.Size(220, 23);
+         ButtonConstructor.TabIndex = 14;
+         ButtonConstructor.Text = "Передача ссылок через конструктор";
+         ButtonConstructor.UseVisualStyleBackColor = true;
+         ButtonConstructor.Click += ButtonConstructor_Click;
          // 
          // FormOne
          // 
@@ -92,7 +92,7 @@
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
          Controls.Add(TextBoxReader);
-         Controls.Add(ButtonStart);
+         Controls.Add(ButtonConstructor);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Передача ссылок на элементы управления в класс";
@@ -106,6 +106,6 @@
       private System.Windows.Forms.RichTextBox RichTextBoxReader;
       private System.Windows.Forms.ListBox ListBoxReader;
       private System.Windows.Forms.TextBox TextBoxReader;
-      private System.Windows.Forms.Button ButtonStart;
+      private System.Windows.Forms.Button ButtonConstructor;
    }
 }

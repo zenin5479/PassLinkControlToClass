@@ -9,7 +9,7 @@ namespace PassLinkControlToClass
          InitializeComponent();
       }
 
-      private void ButtonStart_Click(object sender, System.EventArgs e)
+      private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
 
       }
