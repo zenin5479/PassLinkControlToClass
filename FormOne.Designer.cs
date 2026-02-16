@@ -39,7 +39,7 @@
          // 
          // ButtonClear
          // 
-         ButtonClear.Location = new System.Drawing.Point(667, 231);
+         ButtonClear.Location = new System.Drawing.Point(670, 12);
          ButtonClear.Name = "ButtonClear";
          ButtonClear.Size = new System.Drawing.Size(90, 23);
          ButtonClear.TabIndex = 18;
@@ -63,7 +63,7 @@
          ListBoxReader.Location = new System.Drawing.Point(388, 41);
          ListBoxReader.Name = "ListBoxReader";
          ListBoxReader.ScrollAlwaysVisible = true;
-         ListBoxReader.Size = new System.Drawing.Size(369, 184);
+         ListBoxReader.Size = new System.Drawing.Size(372, 184);
          ListBoxReader.TabIndex = 16;
          // 
          // TextBoxReader
@@ -89,25 +89,25 @@
          // 
          button1.Location = new System.Drawing.Point(238, 12);
          button1.Name = "button1";
-         button1.Size = new System.Drawing.Size(184, 23);
+         button1.Size = new System.Drawing.Size(185, 23);
          button1.TabIndex = 19;
          button1.Text = "Передача ссылок через метод";
          button1.UseVisualStyleBackColor = true;
          // 
          // button2
          // 
-         button2.Location = new System.Drawing.Point(464, 12);
+         button2.Location = new System.Drawing.Point(429, 12);
          button2.Name = "button2";
-         button2.Size = new System.Drawing.Size(220, 23);
+         button2.Size = new System.Drawing.Size(210, 23);
          button2.TabIndex = 20;
-         button2.Text = "Передача ссылок через конструктор";
+         button2.Text = "Передача ссылок через интерфейс";
          button2.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(769, 414);
+         ClientSize = new System.Drawing.Size(772, 414);
          Controls.Add(button2);
          Controls.Add(button1);
          Controls.Add(ButtonClear);
