@@ -1,6 +1,6 @@
 ﻿namespace PassLinkControlToClass
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
