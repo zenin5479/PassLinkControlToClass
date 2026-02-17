@@ -13,11 +13,10 @@ namespace PassLinkControlToClass
 
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
-         // Создаём менеджер и передаём ссылки на элементы
-         _manager = new PassLinkControlConstructor(
-            TextBoxReader,   // ваш TextBox на форме
-            listBox1,    // ваш ListBox на форме
-            richTextBox1 // ваш RichTextBox на форме
+         // Создаём менеджер и передаём ссылки на элементы// ваш TextBox на форме // ваш ListBox на форме// ваш RichTextBox на форме
+         _manager = new PassLinkControlConstructor(TextBoxReader,   
+            ListBoxReader,   
+            RichTextBoxReader 
          );
 
          _manager.SetTextBoxText("Привет из менеджера!");
