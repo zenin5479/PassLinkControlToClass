@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace PassLinkControlToClass
 {
@@ -23,6 +24,11 @@ namespace PassLinkControlToClass
          if (_textBox != null)
          {
             _textBox.Text = text;
+            _textBox.AppendText(Environment.NewLine); 
+            //TextBoxReader.AppendText(lineone);
+            //TextBoxReader.AppendText(Environment.NewLine);
+            // Прокрутка TextBox вниз
+            //TextBoxReader.ScrollToCaret();
          }
       }
 
