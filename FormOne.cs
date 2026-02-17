@@ -11,6 +11,7 @@ namespace PassLinkControlToClass
          InitializeComponent();
       }
 
+      // Пример: кнопка, которая использует PassLinkControlConstructor
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
          // Создаём менеджер и передаём ссылки на элементы// ваш TextBox на форме // ваш ListBox на форме// ваш RichTextBox на форме
@@ -20,7 +21,7 @@ namespace PassLinkControlToClass
          _manager.AddToRichTextBox("Передача ссылок через конструктор");
       }
 
-      // Пример: кнопка, которая использует менеджер
+      
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
 
