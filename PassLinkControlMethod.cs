@@ -21,6 +21,10 @@ namespace PassLinkControlToClass
 
       public void DoWork()
       {
+         //_manager.AddTextBoxText("Передача ссылки на TextBox через конструктор");
+         //_manager.AddToListBox("Передача ссылки на ListBox через конструктор");
+         //_manager.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
+
          if (_textBox != null)
          {
             _textBox.Text = "Работа выполнена";
