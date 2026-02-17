@@ -4,10 +4,6 @@ namespace PassLinkControlToClass
 {
    public partial class FormOne : Form
    {
-      private PassLinkControlConstructor _constructor;
-
-      private PassLinkControlMethod _method;
-
       public FormOne()
       {
          InitializeComponent();
@@ -24,6 +20,7 @@ namespace PassLinkControlToClass
          constructor.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
       }
 
+      // Кнопка, использует класс PassLinkControlMethod
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы: TextBox, ListBox, RichTextBox
