@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace PassLinkControlToClass
 {
@@ -49,6 +50,13 @@ namespace PassLinkControlToClass
       {
          if (_richTextBox != null)
          {
+            // RichTextBox
+            _richTextBox.AppendText(text);
+            _richTextBox.AppendText(Environment.NewLine);
+            // Прокрутка RichTextBox вниз
+            _richTextBox.ScrollToCaret();
+
+
             _richTextBox.AppendText(text + "\n");
          }
       }
