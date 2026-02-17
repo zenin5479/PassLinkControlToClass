@@ -6,7 +6,7 @@ namespace PassLinkControlToClass
    {
       private PassLinkControlConstructor _constructor;
 
-      //private PassLinkControlMethod _method;
+      private PassLinkControlMethod _method;
 
       public FormOne()
       {
