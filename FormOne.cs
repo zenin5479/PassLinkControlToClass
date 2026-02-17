@@ -15,7 +15,7 @@ namespace PassLinkControlToClass
       {
          // Создаём менеджер и передаём ссылки на элементы
          _manager = new PassLinkControlConstructor(
-            textBox1,   // ваш TextBox на форме
+            TextBoxReader,   // ваш TextBox на форме
             listBox1,    // ваш ListBox на форме
             richTextBox1 // ваш RichTextBox на форме
          );
