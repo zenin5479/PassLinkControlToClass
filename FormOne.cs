@@ -6,7 +6,7 @@ namespace PassLinkControlToClass
    {
       private PassLinkControlConstructor _manager;
 
-      private PassLinkControlMethod _processor = new PassLinkControlMethod();
+      private PassLinkControlMethod _processor;
 
       public FormOne()
       {
@@ -25,6 +25,7 @@ namespace PassLinkControlToClass
 
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
+         _processor = new PassLinkControlMethod();
          _processor.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Теперь можно работать с элементами
          _processor.DoWork();
