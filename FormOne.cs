@@ -15,9 +15,9 @@ namespace PassLinkControlToClass
       {
          // Создаём менеджер и передаём ссылки на элементы// ваш TextBox на форме // ваш ListBox на форме// ваш RichTextBox на форме
          _manager = new PassLinkControlConstructor(TextBoxReader, ListBoxReader, RichTextBoxReader);
-         _manager.SetTextBoxText("Передача ссылок через конструктор");
+         _manager.AddTextBoxText("Передача ссылок через конструктор");
          _manager.AddToListBox("Передача ссылок через конструктор");
-         _manager.AppendToRichTextBox("Передача ссылок через конструктор");
+         _manager.AddToRichTextBox("Передача ссылок через конструктор");
       }
 
       // Пример: кнопка, которая использует менеджер

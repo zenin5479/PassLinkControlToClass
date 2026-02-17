@@ -18,7 +18,7 @@ namespace PassLinkControlToClass
       }
 
       // Добавляет текст в TextBox
-      public void SetTextBoxText(string text)
+      public void AddTextBoxText(string text)
       {
          if (_textBox != null)
          {
@@ -36,7 +36,7 @@ namespace PassLinkControlToClass
       }
 
       // Пример: добавляем текст в RichTextBox
-      public void AppendToRichTextBox(string text)
+      public void AddToRichTextBox(string text)
       {
          if (_richTextBox != null)
             _richTextBox.AppendText(text + "\n");
