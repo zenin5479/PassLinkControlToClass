@@ -38,7 +38,7 @@ namespace PassLinkControlToClass
          if (_listBox != null)
          {
             // ListBox
-            string text = "Передача ссылки на TextBox через метод";
+            string text = "Передача ссылки на ListBox через метод";
             _listBox.Items.Add(text);
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
@@ -47,7 +47,9 @@ namespace PassLinkControlToClass
          if (_richTextBox != null)
          {
             // RichTextBox
-            //_richTextBox.AppendText(text);
+            string text = "Передача ссылки на RichTextBox через метод";
+
+            _richTextBox.AppendText(text);
             _richTextBox.AppendText(Environment.NewLine);
             // Прокрутка RichTextBox вниз
             _richTextBox.ScrollToCaret();
