@@ -22,6 +22,7 @@ namespace PassLinkControlToClass
          );
       }
 
+      // Пример: кнопка, которая использует менеджер
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
 
