@@ -23,7 +23,7 @@ namespace PassLinkControlToClass
       {
          if (_textBox != null)
          {
-            _textBox.Text = text;
+            _textBox.AppendText(text);
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
