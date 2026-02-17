@@ -26,7 +26,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      // Пример: добавляем элемент в ListBox
+      // Добавляет элемент в ListBox
       public void AddToListBox(string item)
       {
          if (_listBox != null)
