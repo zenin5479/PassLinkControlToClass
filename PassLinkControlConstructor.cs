@@ -44,7 +44,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      // Пример: добавляем текст в RichTextBox
+      // Добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
       {
          if (_richTextBox != null)
