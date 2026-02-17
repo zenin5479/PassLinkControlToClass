@@ -6,7 +6,7 @@ namespace PassLinkControlToClass
    {
       private PassLinkControlConstructor _constructor;
 
-      private PassLinkControlMethod _method;
+      //private PassLinkControlMethod _method;
 
       public FormOne()
       {
@@ -25,10 +25,10 @@ namespace PassLinkControlToClass
 
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
-         _method = new PassLinkControlMethod();
-         _method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
+         PassLinkControlMethod method = new PassLinkControlMethod();
+         method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Теперь можно работать с элементами
-         _method.DoWork();
+         method.DoWork();
       }
 
       // Кнопка очищает все злементы
