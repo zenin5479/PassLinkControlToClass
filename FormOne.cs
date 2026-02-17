@@ -9,7 +9,6 @@ namespace PassLinkControlToClass
       public FormOne()
       {
          InitializeComponent();
-
       }
 
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
