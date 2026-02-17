@@ -31,7 +31,7 @@ namespace PassLinkControlToClass
 
       }
 
-      //  // Кнопка, которая очищает все злементы
+      // Кнопка очищает все злементы
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
          TextBoxReader.Clear();
