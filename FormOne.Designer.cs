@@ -93,6 +93,7 @@
          ButtonMethod.TabIndex = 19;
          ButtonMethod.Text = "Передача ссылок через метод";
          ButtonMethod.UseVisualStyleBackColor = true;
+         ButtonMethod.Click += ButtonMethod_Click;
          // 
          // ButtonInterface
          // 
@@ -102,6 +103,7 @@
          ButtonInterface.TabIndex = 20;
          ButtonInterface.Text = "Передача ссылок через интерфейс";
          ButtonInterface.UseVisualStyleBackColor = true;
+         ButtonInterface.Click += ButtonInterface_Click;
          // 
          // FormOne
          // 

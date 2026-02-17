@@ -14,6 +14,16 @@ namespace PassLinkControlToClass
 
       }
 
+      private void ButtonMethod_Click(object sender, System.EventArgs e)
+      {
+
+      }
+
+      private void ButtonInterface_Click(object sender, System.EventArgs e)
+      {
+
+      }
+
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
          TextBoxReader.Clear();
