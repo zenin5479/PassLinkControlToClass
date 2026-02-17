@@ -26,10 +26,10 @@ namespace PassLinkControlToClass
 
          if (_textBox != null)
          {
-            _textBox.Text = "Работа выполнена";
             // TextBox
             // Добавляет строку оставляя предыдущие
-            //_textBox.AppendText(text);
+            string text = "Передача ссылки на TextBox через метод";
+            _textBox.AppendText(text);
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
@@ -38,7 +38,8 @@ namespace PassLinkControlToClass
          if (_listBox != null)
          {
             // ListBox
-            //_listBox.Items.Add(item);
+            string text = "Передача ссылки на TextBox через метод";
+            _listBox.Items.Add(text);
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
          }
