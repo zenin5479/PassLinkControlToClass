@@ -33,7 +33,6 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
-
          }
 
          if (_listBox != null)
