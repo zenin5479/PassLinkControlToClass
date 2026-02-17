@@ -6,9 +6,9 @@ namespace PassLinkControlToClass
    // Передача ссылок через конструктор
    public class PassLinkControlConstructor
    {
-      private TextBox _textBox;
-      private ListBox _listBox;
-      private RichTextBox _richTextBox;
+      private readonly TextBox _textBox;
+      private readonly ListBox _listBox;
+      private readonly RichTextBox _richTextBox;
 
       // Конструктор, принимающий ссылки
       public PassLinkControlConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
