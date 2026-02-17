@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace PassLinkControlToClass
 {
@@ -27,6 +28,17 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
+
+            // ListBox
+            ListBoxReader.Items.Add(line);
+            // Прокрутка ListBox вниз
+            ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
+
+            // RichTextBox
+            RichTextBoxReader.AppendText(line);
+            RichTextBoxReader.AppendText(Environment.NewLine);
+            // Прокрутка RichTextBox вниз
+            RichTextBoxReader.ScrollToCaret();
          }
       }
 
