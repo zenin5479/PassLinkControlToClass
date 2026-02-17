@@ -48,7 +48,6 @@ namespace PassLinkControlToClass
          {
             // RichTextBox
             string text = "Передача ссылки на RichTextBox через метод";
-
             _richTextBox.AppendText(text);
             _richTextBox.AppendText(Environment.NewLine);
             // Прокрутка RichTextBox вниз
