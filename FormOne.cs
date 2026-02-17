@@ -1,5 +1,4 @@
 ﻿using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PassLinkControlToClass
 {
@@ -28,7 +27,7 @@ namespace PassLinkControlToClass
       {
          _processor.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Теперь можно работать с элементами
-         _processor.DoWork(); 
+         _processor.DoWork();
       }
 
       // Кнопка очищает все злементы

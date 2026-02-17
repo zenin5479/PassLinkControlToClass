@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace PassLinkControlToClass
 {
@@ -28,6 +27,13 @@ namespace PassLinkControlToClass
          if (_textBox != null)
          {
             _textBox.Text = "Работа выполнена";
+            // TextBox
+            // Добавляет строку оставляя предыдущие
+            //_textBox.AppendText(text);
+            _textBox.AppendText(Environment.NewLine);
+            // Прокрутка TextBox вниз
+            _textBox.ScrollToCaret();
+
          }
 
          if (_listBox != null)
