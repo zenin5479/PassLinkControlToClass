@@ -41,7 +41,6 @@ namespace PassLinkControlToClass
             _listBox.Items.Add(item);
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
-
          }
       }
 
