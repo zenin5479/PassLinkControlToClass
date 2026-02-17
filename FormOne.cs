@@ -25,7 +25,12 @@ namespace PassLinkControlToClass
       {
 
       }
-      
+
+      private void ButtonInterface_Click(object sender, System.EventArgs e)
+      {
+
+      }
+
       // Кнопка очищает все злементы
       private void ButtonClear_Click(object sender, System.EventArgs e)
       {
