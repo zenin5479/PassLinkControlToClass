@@ -9,17 +9,21 @@ namespace PassLinkControlToClass
       public FormOne()
       {
          InitializeComponent();
-
-      }
-
-      private void ButtonConstructor_Click(object sender, System.EventArgs e)
-      {
          // Создаём менеджер и передаём ссылки на элементы
          _manager = new PassLinkControlConstructor(
             textBox1,   // ваш TextBox на форме
             listBox1,    // ваш ListBox на форме
             richTextBox1 // ваш RichTextBox на форме
          );
+      }
+
+      private void ButtonConstructor_Click(object sender, System.EventArgs e)
+      {
+
+
+         _manager.SetTextBoxText("Привет из менеджера!");
+         _manager.AddToListBox("Элемент 1");
+         _manager.AppendToRichTextBox("Строка в RichTextBox");
       }
 
       // Пример: кнопка, которая использует менеджер
