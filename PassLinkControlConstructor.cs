@@ -21,7 +21,9 @@ namespace PassLinkControlToClass
       public void SetTextBoxText(string text)
       {
          if (_textBox != null)
+         {
             _textBox.Text = text;
+         }
       }
 
       // Пример: добавляем элемент в ListBox
