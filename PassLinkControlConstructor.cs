@@ -39,7 +39,9 @@ namespace PassLinkControlToClass
       public void AddToRichTextBox(string text)
       {
          if (_richTextBox != null)
+         {
             _richTextBox.AppendText(text + "\n");
+         }
       }
    }
 }
