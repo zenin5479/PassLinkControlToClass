@@ -17,15 +17,17 @@ namespace PassLinkControlToClass
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы: TextBox, ListBox, RichTextBox
-         _constructor = new PassLinkControlConstructor(TextBoxReader, ListBoxReader, RichTextBoxReader);
-         _constructor.AddTextBoxText("Передача ссылки на TextBox через конструктор");
-         _constructor.AddToListBox("Передача ссылки на ListBox через конструктор");
-         _constructor.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
+         // Локальная переменная: создаётся здесь и живёт только в этом методе
+         PassLinkControlConstructor constructor = new PassLinkControlConstructor(TextBoxReader, ListBoxReader, RichTextBoxReader);
+         constructor.AddTextBoxText("Передача ссылки на TextBox через конструктор");
+         constructor.AddToListBox("Передача ссылки на ListBox через конструктор");
+         constructor.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
       }
 
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы: TextBox, ListBox, RichTextBox
+         // Локальная переменная: создаётся здесь и живёт только в этом методе
          PassLinkControlMethod method = new PassLinkControlMethod();
          method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Теперь можно работать с элементами
