@@ -6,6 +6,8 @@ namespace PassLinkControlToClass
    {
       private PassLinkControlConstructor _manager;
 
+      private PassLinkControlMethod _processor = new PassLinkControlMethod();
+
       public FormOne()
       {
          InitializeComponent();
