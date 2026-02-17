@@ -30,7 +30,9 @@ namespace PassLinkControlToClass
       public void AddToListBox(string item)
       {
          if (_listBox != null)
+         {
             _listBox.Items.Add(item);
+         }
       }
 
       // Пример: добавляем текст в RichTextBox
