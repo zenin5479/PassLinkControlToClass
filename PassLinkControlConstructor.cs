@@ -37,11 +37,10 @@ namespace PassLinkControlToClass
       {
          if (_listBox != null)
          {
-            _listBox.Items.Add(item);
             // ListBox
-            ListBoxReader.Items.Add(line);
+            _listBox.Items.Add(item);
             // Прокрутка ListBox вниз
-            ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
+            _listBox.TopIndex = _listBox.Items.Count - 1;
 
          }
       }
