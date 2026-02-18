@@ -51,7 +51,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      public void AddTextBoxText()
+      public void AddToListBox()
       {
          if (_textBox != null)
          {
@@ -84,7 +84,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      public void AddTextBoxText()
+      public void AddToRichTextBox()
       {
          if (_textBox != null)
          {
