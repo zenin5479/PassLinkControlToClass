@@ -31,14 +31,7 @@ namespace PassLinkControlToClass
             _textBox.ScrollToCaret();
          }
 
-         if (_listBox != null)
-         {
-            // ListBox
-            string text = "Передача ссылки на ListBox через метод";
-            _listBox.Items.Add(text);
-            // Прокрутка ListBox вниз
-            _listBox.TopIndex = _listBox.Items.Count - 1;
-         }
+        
 
          if (_richTextBox != null)
          {
