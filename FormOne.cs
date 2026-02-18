@@ -30,9 +30,6 @@ namespace PassLinkControlToClass
          // Локальная переменная: создаётся здесь и живёт только в этом методе
          PassLinkControlMethod method = new PassLinkControlMethod();
          method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
-         // Вызываем метод DoWork()
-         method.AddTextBoxText();
-
          // Вызываем метод AddTextBoxText()
          method.AddTextBoxText("Передача ссылки на TextBox через конструктор");
          // Вызываем метод AddToListBox()
