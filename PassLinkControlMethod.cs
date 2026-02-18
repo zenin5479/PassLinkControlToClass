@@ -31,7 +31,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      public void AddToListBox()
+      public void AddToListBox(string text)
       {
          if (_listBox != null)
          {
