@@ -32,7 +32,6 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
-            //_textBox.ResetForeColor();
 
             //_textBox.ResetForeColor();
             //_textBox.ForeColor = SystemColors.WindowText;
@@ -61,7 +60,6 @@ namespace PassLinkControlToClass
       {
          // Изменение цвета текста в RichTextBox
          _richTextBox.ForeColor = Color.Red;
-
          if (_richTextBox != null)
          {
             // RichTextBox
