@@ -50,5 +50,71 @@ namespace PassLinkControlToClass
             _richTextBox.ScrollToCaret();
          }
       }
+
+      public void AddTextBoxText()
+      {
+         if (_textBox != null)
+         {
+            // TextBox
+            // Добавляет строку оставляя предыдущие
+            string text = "Передача ссылки на TextBox через метод";
+            _textBox.AppendText(text);
+            _textBox.AppendText(Environment.NewLine);
+            // Прокрутка TextBox вниз
+            _textBox.ScrollToCaret();
+         }
+
+         if (_listBox != null)
+         {
+            // ListBox
+            string text = "Передача ссылки на ListBox через метод";
+            _listBox.Items.Add(text);
+            // Прокрутка ListBox вниз
+            _listBox.TopIndex = _listBox.Items.Count - 1;
+         }
+
+         if (_richTextBox != null)
+         {
+            // RichTextBox
+            string text = "Передача ссылки на RichTextBox через метод";
+            _richTextBox.AppendText(text);
+            _richTextBox.AppendText(Environment.NewLine);
+            // Прокрутка RichTextBox вниз
+            _richTextBox.ScrollToCaret();
+         }
+      }
+
+      public void AddTextBoxText()
+      {
+         if (_textBox != null)
+         {
+            // TextBox
+            // Добавляет строку оставляя предыдущие
+            string text = "Передача ссылки на TextBox через метод";
+            _textBox.AppendText(text);
+            _textBox.AppendText(Environment.NewLine);
+            // Прокрутка TextBox вниз
+            _textBox.ScrollToCaret();
+         }
+
+         if (_listBox != null)
+         {
+            // ListBox
+            string text = "Передача ссылки на ListBox через метод";
+            _listBox.Items.Add(text);
+            // Прокрутка ListBox вниз
+            _listBox.TopIndex = _listBox.Items.Count - 1;
+         }
+
+         if (_richTextBox != null)
+         {
+            // RichTextBox
+            string text = "Передача ссылки на RichTextBox через метод";
+            _richTextBox.AppendText(text);
+            _richTextBox.AppendText(Environment.NewLine);
+            // Прокрутка RichTextBox вниз
+            _richTextBox.ScrollToCaret();
+         }
+      }
    }
 }
