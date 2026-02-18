@@ -34,9 +34,6 @@ namespace PassLinkControlToClass
             //_textBox.ResetForeColor();
             //_textBox.ForeColor = SystemColors.WindowText;
          }
-
-
-
       }
 
       public void AddToListBox(string text)
