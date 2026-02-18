@@ -33,7 +33,7 @@ namespace PassLinkControlToClass
          // Вызываем метод AddTextBoxText()
          method.AddTextBoxText("Передача ссылки на TextBox через метод");
          // Вызываем метод AddToListBox()
-         method.AddToListBox("Передача ссылки на ListBox через конструктор");
+         method.AddToListBox("Передача ссылки на ListBox через метод");
          // Вызываем метод AddToRichTextBox()
          method.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
       }
