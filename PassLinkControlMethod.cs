@@ -53,8 +53,6 @@ namespace PassLinkControlToClass
 
       public void AddToListBox()
       {
-         
-
          if (_listBox != null)
          {
             // ListBox
