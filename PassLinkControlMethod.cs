@@ -30,18 +30,6 @@ namespace PassLinkControlToClass
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
          }
-
-        
-
-         if (_richTextBox != null)
-         {
-            // RichTextBox
-            string text = "Передача ссылки на RichTextBox через метод";
-            _richTextBox.AppendText(text);
-            _richTextBox.AppendText(Environment.NewLine);
-            // Прокрутка RichTextBox вниз
-            _richTextBox.ScrollToCaret();
-         }
       }
 
       public void AddToListBox()
