@@ -32,12 +32,10 @@ namespace PassLinkControlToClass
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
 
-
-
             //_textBox.ForeColor = SystemColors.WindowText;
          }
 
-         _textBox.ResetForeColor();
+         //_textBox.ResetForeColor();
 
       }
 
