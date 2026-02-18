@@ -63,6 +63,9 @@ namespace PassLinkControlToClass
             _richTextBox.AppendText(Environment.NewLine);
             // Прокрутка RichTextBox вниз
             _richTextBox.ScrollToCaret();
+
+            //_richTextBox.ResetForeColor();
+            //_richTextBox.ForeColor = SystemColors.WindowText;
          }
       }
    }
