@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PassLinkControlToClass
 {
@@ -20,6 +22,10 @@ namespace PassLinkControlToClass
 
       public void AddTextBoxText(string text)
       {
+         // Изменение цвета текста в TextBox
+         _textBox.ForeColor = Color.Blue;
+
+
          if (_textBox != null)
          {
             // TextBox
@@ -33,6 +39,9 @@ namespace PassLinkControlToClass
 
       public void AddToListBox(string text)
       {
+         // Изменение цвета текста в ListBox
+         _listBox.ForeColor = Color.Green;
+
          if (_listBox != null)
          {
             // ListBox
@@ -44,6 +53,9 @@ namespace PassLinkControlToClass
 
       public void AddToRichTextBox(string text)
       {
+         // Изменение цвета текста в RichTextBox
+         _richTextBox.ForeColor = Color.Green;
+
          if (_richTextBox != null)
          {
             // RichTextBox
