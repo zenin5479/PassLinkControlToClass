@@ -21,8 +21,7 @@ namespace PassLinkControlToClass
 
       public void AddTextBoxText(string text)
       {
-         // Изменение цвета текста в TextBox
-         _textBox.ForeColor = Color.Red;
+         _textBox.ResetForeColor();
          if (_textBox != null)
          {
             // TextBox
@@ -32,10 +31,14 @@ namespace PassLinkControlToClass
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
 
-            _textBox.ForeColor = SystemColors.WindowText;
+            _textBox.ForeColor = Color.Green;
 
-            _textBox.ResetForeColor();
+            //_textBox.ForeColor = SystemColors.WindowText;
          }
+         
+         // Изменение цвета текста в TextBox
+         _textBox.ForeColor = Color.Red;
+         
       }
 
       public void AddToListBox(string text)
