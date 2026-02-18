@@ -31,7 +31,7 @@ namespace PassLinkControlToClass
          PassLinkControlMethod method = new PassLinkControlMethod();
          method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Вызываем метод DoWork()
-         method.DoWork();
+         method.AddTextBoxText();
       }
 
       // Кнопка очищает все злементы

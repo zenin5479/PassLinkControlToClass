@@ -18,7 +18,7 @@ namespace PassLinkControlToClass
          _richTextBox = richTextBox;
       }
 
-      public void DoWork()
+      public void AddTextBoxText()
       {
          if (_textBox != null)
          {
