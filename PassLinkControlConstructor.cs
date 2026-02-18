@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace PassLinkControlToClass
@@ -21,6 +22,9 @@ namespace PassLinkControlToClass
       // Добавляет текст в TextBox
       public void AddTextBoxText(string text)
       {
+         // Изменение цвета текста в TextBox
+         _textBox.ForeColor = Color.Green;
+
          if (_textBox != null)
          {
             // TextBox
@@ -47,6 +51,9 @@ namespace PassLinkControlToClass
       // Добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
       {
+         // Изменение цвета текста в RichTextBox
+         _richTextBox.ForeColor = Color.Red;
+
          if (_richTextBox != null)
          {
             // RichTextBox
