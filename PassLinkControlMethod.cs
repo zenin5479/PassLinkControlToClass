@@ -66,7 +66,7 @@ namespace PassLinkControlToClass
             _richTextBox.ScrollToCaret();
 
             _richTextBox.ResetForeColor();
-            _listBox.ForeColor = SystemColors.WindowText;
+            _richTextBox.ForeColor = SystemColors.WindowText;
          }
       }
    }
