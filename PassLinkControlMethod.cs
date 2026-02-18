@@ -24,7 +24,6 @@ namespace PassLinkControlToClass
          {
             // TextBox
             // Добавляет строку оставляя предыдущие
-            //string text = "Передача ссылки на TextBox через метод";
             _textBox.AppendText(text);
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
