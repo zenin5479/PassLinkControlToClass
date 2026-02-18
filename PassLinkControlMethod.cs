@@ -43,7 +43,7 @@ namespace PassLinkControlToClass
          }
       }
 
-      public void AddToRichTextBox()
+      public void AddToRichTextBox(string text)
       {
          if (_richTextBox != null)
          {
