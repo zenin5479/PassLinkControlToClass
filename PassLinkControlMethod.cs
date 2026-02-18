@@ -38,7 +38,6 @@ namespace PassLinkControlToClass
       {
          // Изменение цвета текста в ListBox
          _listBox.ForeColor = Color.Green;
-
          if (_listBox != null)
          {
             // ListBox
@@ -52,7 +51,6 @@ namespace PassLinkControlToClass
       {
          // Изменение цвета текста в RichTextBox
          _richTextBox.ForeColor = Color.Green;
-
          if (_richTextBox != null)
          {
             // RichTextBox
