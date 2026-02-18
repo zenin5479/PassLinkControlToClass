@@ -23,8 +23,6 @@ namespace PassLinkControlToClass
       {
          // Изменение цвета текста в TextBox
          _textBox.ForeColor = Color.Blue;
-
-
          if (_textBox != null)
          {
             // TextBox
