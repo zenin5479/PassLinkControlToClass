@@ -31,11 +31,11 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
-
+            //_textBox.ResetForeColor();
             //_textBox.ForeColor = SystemColors.WindowText;
          }
 
-         //_textBox.ResetForeColor();
+
 
       }
 
