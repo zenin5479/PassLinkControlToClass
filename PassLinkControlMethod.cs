@@ -48,8 +48,8 @@ namespace PassLinkControlToClass
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
 
-            _listBox.ResetForeColor();
-            _listBox.ForeColor = SystemColors.WindowText;
+            //_listBox.ResetForeColor();
+            //_listBox.ForeColor = SystemColors.WindowText;
          }
       }
 
@@ -64,6 +64,9 @@ namespace PassLinkControlToClass
             _richTextBox.AppendText(Environment.NewLine);
             // Прокрутка RichTextBox вниз
             _richTextBox.ScrollToCaret();
+
+            //_listBox.ResetForeColor();
+            //_listBox.ForeColor = SystemColors.WindowText;
          }
       }
    }
