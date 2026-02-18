@@ -22,7 +22,7 @@ namespace PassLinkControlToClass
       public void AddTextBoxText(string text)
       {
          // Изменение цвета текста в TextBox
-         _textBox.ForeColor = Color.Blue;
+         _textBox.ForeColor = Color.Red;
          if (_textBox != null)
          {
             // TextBox
@@ -31,19 +31,25 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
+
+            _textBox.ForeColor = SystemColors.WindowText;
+
+            _textBox.ResetForeColor();
          }
       }
 
       public void AddToListBox(string text)
       {
          // Изменение цвета текста в ListBox
-         _listBox.ForeColor = Color.Green;
+         _listBox.ForeColor = Color.Yellow;
          if (_listBox != null)
          {
             // ListBox
             _listBox.Items.Add(text);
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
+
+
          }
       }
 
