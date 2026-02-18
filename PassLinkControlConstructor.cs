@@ -39,7 +39,8 @@ namespace PassLinkControlToClass
       // Добавляет элемент в ListBox
       public void AddToListBox(string item)
       {
-         
+         // Изменение цвета текста в TextBox
+         _textBox.ForeColor = Color.y;
          if (_listBox != null)
          {
             // ListBox
