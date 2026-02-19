@@ -35,7 +35,7 @@ namespace PassLinkControlToClass
          // Вызываем метод AddToListBox()
          method.AddToListBox("Передача ссылки в класс на ListBox через метод");
          // Вызываем метод AddToRichTextBox()
-         method.AddToRichTextBox("Передача ссылки на RichTextBox через метод");
+         method.AddToRichTextBox("Передача ссылки в класс на RichTextBox через метод");
       }
 
       // Кнопка очищает все злементы
