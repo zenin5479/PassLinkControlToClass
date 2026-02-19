@@ -20,7 +20,7 @@ namespace PassLinkControlToClass
          // Вызываем метод AddToListBox()
          constructor.AddToListBox("Передача ссылки в класс на ListBox через конструктор");
          // Вызываем метод AddToRichTextBox()
-         constructor.AddToRichTextBox("Передача ссылки на RichTextBox через конструктор");
+         constructor.AddToRichTextBox("Передача ссылки в класс на RichTextBox через конструктор");
       }
 
       // Кнопка, использует класс PassLinkControlMethod
