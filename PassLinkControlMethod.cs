@@ -21,8 +21,6 @@ namespace PassLinkControlToClass
 
       public void AddTextBoxText(string text)
       {
-         // Изменение цвета текста в TextBox
-         _textBox.ForeColor = Color.Red;
          if (_textBox != null)
          {
             // TextBox
