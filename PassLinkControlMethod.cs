@@ -32,6 +32,7 @@ namespace PassLinkControlToClass
          }
       }
 
+      // Добавляет элемент в ListBox
       public void AddToListBox(string text)
       {
          if (_listBox != null)
