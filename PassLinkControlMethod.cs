@@ -10,7 +10,7 @@ namespace PassLinkControlToClass
       private ListBox _listBox;
       private RichTextBox _richTextBox;
 
-      // Метод принимающий ссылки на элементы управления
+      // Метод, принимающий ссылки на элементы управления
       public void SetControls(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
       {
          _textBox = textBox;
