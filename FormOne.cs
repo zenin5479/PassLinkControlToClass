@@ -12,7 +12,7 @@ namespace PassLinkControlToClass
       // Кнопка, использует класс PassLinkControlConstructor
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
-         // Создаём экземпляр класса и передаём ссылки на элементы: TextBox, ListBox, RichTextBox
+         // Создаём экземпляр класса и передаём ссылки на элементы на элементы управления: TextBox, ListBox, RichTextBox
          // Локальная переменная: создаётся здесь и живёт только в этом методе
          PassLinkControlConstructor constructor = new PassLinkControlConstructor(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Вызываем метод AddTextBoxText()
