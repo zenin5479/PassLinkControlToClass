@@ -48,8 +48,6 @@ namespace PassLinkControlToClass
       // Добавляет текст в RichTextBox
       public void AddToRichTextBox(string text)
       {
-         // Изменение цвета текста в RichTextBox
-         _richTextBox.ForeColor = Color.Red;
          if (_richTextBox != null)
          {
             // RichTextBox
