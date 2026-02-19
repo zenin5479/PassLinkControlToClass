@@ -40,9 +40,6 @@ namespace PassLinkControlToClass
             _listBox.Items.Add(text);
             // Прокрутка ListBox вниз
             _listBox.TopIndex = _listBox.Items.Count - 1;
-
-            //_listBox.ResetForeColor();
-            //_listBox.ForeColor = SystemColors.WindowText;
          }
       }
 
