@@ -10,7 +10,7 @@ namespace PassLinkControlToClass
       private readonly ListBox _listBox;
       private readonly RichTextBox _richTextBox;
 
-      // Конструктор, принимающий ссылки
+      // Конструктор, принимающий ссылки на элементы управления
       public PassLinkControlConstructor(TextBox textBox, ListBox listBox, RichTextBox richTextBox)
       {
          _textBox = textBox;
