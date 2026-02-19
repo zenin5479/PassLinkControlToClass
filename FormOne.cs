@@ -31,7 +31,7 @@ namespace PassLinkControlToClass
          PassLinkControlMethod method = new PassLinkControlMethod();
          method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Вызываем метод AddTextBoxText()
-         method.AddTextBoxText("Передача ссылки на TextBox через метод");
+         method.AddTextBoxText("Передача ссылки в класс на TextBox через метод");
          // Вызываем метод AddToListBox()
          method.AddToListBox("Передача ссылки на ListBox через метод");
          // Вызываем метод AddToRichTextBox()
