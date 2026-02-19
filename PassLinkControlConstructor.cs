@@ -22,7 +22,6 @@ namespace PassLinkControlToClass
       // Добавляет текст в TextBox
       public void AddTextBoxText(string text)
       {
-         
          if (_textBox != null)
          {
             // TextBox
@@ -31,9 +30,6 @@ namespace PassLinkControlToClass
             _textBox.AppendText(Environment.NewLine);
             // Прокрутка TextBox вниз
             _textBox.ScrollToCaret();
-
-            //_textBox.ResetForeColor();
-            //_textBox.ForeColor = SystemColors.WindowText;
          }
       }
 
