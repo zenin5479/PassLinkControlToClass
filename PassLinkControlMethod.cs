@@ -34,8 +34,6 @@ namespace PassLinkControlToClass
 
       public void AddToListBox(string text)
       {
-         // Изменение цвета текста в ListBox
-         _listBox.ForeColor = Color.Yellow;
          if (_listBox != null)
          {
             // ListBox
