@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace PassLinkControlToClass
 {
-   // Передача ссылок в класс через конструктор
+   // Передача ссылок в класс на элементы управления через конструктор
    public class PassLinkControlConstructor
    {
       private readonly TextBox _textBox;
