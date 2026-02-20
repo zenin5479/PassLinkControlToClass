@@ -18,7 +18,7 @@ namespace PassLinkControlToClass
          _richTextBox = richTextBox;
       }
 
-      // Добавляет текст в TextBox
+      // Метод, добавляет текст в TextBox
       public void AddTextBoxText(string text)
       {
          if (_textBox != null)
