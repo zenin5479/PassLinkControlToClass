@@ -27,7 +27,7 @@ namespace PassLinkControlToClass
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы управления: TextBox, ListBox, RichTextBox
-         // Локальная переменная: создаётся здесь и живёт только в этом методе
+         // Локальная переменная создаётся здесь и живёт только в этом методе
          PassLinkControlMethod method = new PassLinkControlMethod();
          method.SetControls(TextBoxReader, ListBoxReader, RichTextBoxReader);
          // Вызываем метод AddTextBoxText()
