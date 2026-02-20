@@ -47,7 +47,6 @@ namespace PassLinkControlToClass
       {
          if (_richTextBox != null)
          {
-            // RichTextBox
             _richTextBox.AppendText(text);
             _richTextBox.AppendText(Environment.NewLine);
             // Прокрутка RichTextBox вниз
