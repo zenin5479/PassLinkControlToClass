@@ -23,7 +23,7 @@ namespace PassLinkControlToClass
          constructor.AddToRichTextBox("Передача ссылки в класс на RichTextBox через конструктор");
       }
 
-      // Кнопка, использует класс PassLinkControlMethod принимающий ссылки на элементы управления
+      // Кнопка, использует класс PassLinkControlMethod, принимающий ссылки на элементы управления
       private void ButtonMethod_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы управления: TextBox, ListBox, RichTextBox
