@@ -23,7 +23,6 @@ namespace PassLinkControlToClass
       {
          if (_textBox != null)
          {
-            // TextBox
             // Добавляет строку оставляя предыдущие
             _textBox.AppendText(text);
             _textBox.AppendText(Environment.NewLine);
