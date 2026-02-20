@@ -9,7 +9,7 @@ namespace PassLinkControlToClass
          InitializeComponent();
       }
 
-      // Кнопка, использует класс PassLinkControlConstructor принимающий ссылки на элементы управления
+      // Кнопка, использует класс PassLinkControlConstructor, принимающий ссылки на элементы управления
       private void ButtonConstructor_Click(object sender, System.EventArgs e)
       {
          // Создаём экземпляр класса и передаём ссылки на элементы управления: TextBox, ListBox, RichTextBox
